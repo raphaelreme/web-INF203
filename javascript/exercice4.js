@@ -25,24 +25,24 @@ class Promotion {
 
   print() {
     var s = "";
-    for (var i in this.array) 
+    for (var i in this.array)
       s += this.array[i].print() + '\n';
     return s;
   }
 
   write() {
-    return JSON.stringify(this);
+    return JSON.stringify(this.array);
   }
 
   read(str) {
     var p = JSON.parse(str);
-    this.array = []
-    for (var i in p.array) {
-      var student = p.array[i];
+    this.array = [];
+    for (var i in p) {
+      var student = p[i];
       if (student.nationality == undefined)
-        student = Object.assign(new ex3.Student(), student);
+        student = Object.assign(new Student(), student);
       else
-        student = Object.assign(new ex3.ForeignStudent(), student);
+        student = Object.assign(new ForeignStudent(), student);
       this.array.push(student);
     }
   }
@@ -62,6 +62,5 @@ class Promotion {
     });
   }
 }
-
 
 exports.Promotion = Promotion;

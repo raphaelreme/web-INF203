@@ -1,0 +1,36 @@
+Nom: REME
+Prenom: Raphael
+
+Question 1a:
+When we look at the source code, it displays the real code of the page whereas inspect the page display how the browser interprets it.
+In this example the source code is only the text "My personal page from Telecom ParisTech". But when the page is inspected, the browser adds the basic tags of HTML.
+
+
+Question 1b:
+//
+
+Question 1c:
+The browser does not display the title on the page. (It is meta information)
+In fact the page that the browser displays is the content of body.
+The content of head is metainformation about the page.
+
+Question 1d:
+//
+
+Question 1e:
+//
+
+Question 1f:
+We can forget a </div> tag. But not the </h1> tag.
+Indeed the browser will put the closing tag the fastest he can.
+
+With a </div> it doesn't change anything to the rendering (but does change the dom tree).
+But with </h1>, all the <div> element are then inside it and are display therefore bigger.
+
+Question 2a:
+
+
+Question 2b:
+
+
+Question 2c:
