@@ -67,6 +67,7 @@ function WordList(s) {
   }
 }
 
+/*
 var obj = new WordList("Salut les tocards !! Je suis trop chaud. Mais il faudrait grandir. Je pense que les arbres sont beaux. Beaux comme moi. Qu'en penses tu ?");
 
 console.log(obj.words)
@@ -77,6 +78,6 @@ console.log(obj.getCount("Je"));
 
 function f (word) {return word.length;}
 console.log(obj.applyWordFunc(f));
-
+*/
 exports.countWords = countWords;
 exports.WordList = WordList;

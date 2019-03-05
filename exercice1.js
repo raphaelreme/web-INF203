@@ -32,7 +32,7 @@ function factorialMap(array) {
   return array.map(factorialRec);
 }
 
-console.log(factorialRec(0));
+/*console.log(factorialRec(0));
 console.log(factorialRec(5));
 
 console.log(factorialIt(0));
@@ -41,7 +41,7 @@ console.log(factorialIt(5));
 console.log(factorialArray([0,1,2,3,4,5,6,7,8,9,10]));
 
 console.log(factorialMap([0,1,2,3,4,5,6,7,8,9,10]));
-
+*/
 exports.factorialIt = factorialIt;
 exports.factorialRec = factorialRec;
 exports.factorialArray = factorialArray;

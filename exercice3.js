@@ -8,15 +8,15 @@ class Student {
   }
 
   print(not_display) {
-    var s = "Student: " + this.lastName + ", " + this.firstName + ", " + this.id;
+    var s = "student: " + this.lastName + ", " + this.firstName + ", " + this.id;
     if (!not_display) console.log(s);
     return s;
   }
 }
-
+/*
 var student = new Student("Dupond", "John", 1835);
 student.print();
-
+*/
 class ForeignStudent extends Student {
 
   constructor(lastName, firstName, id, nationality) {
@@ -30,9 +30,10 @@ class ForeignStudent extends Student {
     return s;
   }
 }
+/*
 student = new ForeignStudent("Doe", "John", 435, "American");
 student.print();
-
+*/
 
 exports.Student = Student;
 exports.ForeignStudent = ForeignStudent;
