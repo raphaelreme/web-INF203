@@ -1,0 +1,29 @@
+img {
+  margin: 10px;
+  float: left;
+}
+
+#div1 {
+  overflow: auto;
+}
+
+#div2 {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.div3 {
+  overflow: scroll;
+  position: fixed;
+  left: 100px;
+  top: 100px;
+  width: 400px;
+  height: 400px;
+  background-color: #CCCCCC;
+  margin: 10px;
+}
+
+.div3:active {
+  visibility: hidden;
+}

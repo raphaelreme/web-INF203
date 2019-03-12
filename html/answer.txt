@@ -28,9 +28,17 @@ With a </div> it doesn't change anything to the rendering (but does change the d
 But with </h1>, all the <div> element are then inside it and are display therefore bigger.
 
 Question 2a:
-
+//
 
 Question 2b:
+All the style is group at one place which is a good thing.
+We also can apply the same style to several components.
+And it also allows to have a more lisible code in the body part !
 
+But it is may be harder to see the real and final style of a component.
 
 Question 2c:
+Having the html separated from the css is a good thing because it allows us
+to change all the style easily (just change the stylesheet src). We can also
+apply the same stylesheet to different html page ! And we can easily have a stylesheet
+for each type of screen.
