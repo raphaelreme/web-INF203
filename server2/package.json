@@ -1,0 +1,16 @@
+{
+  "name": "server2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server2.js",
+  "scripts": {
+    "test": "nodejs server2.js 8000"
+  },
+  "author": "Raphael REME",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "npm": "^6.9.0"
+  }
+}
